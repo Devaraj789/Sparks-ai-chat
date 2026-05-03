@@ -1,14 +1,11 @@
-// capacitor.config.ts
+// capacitor.config.ts — இப்படி வை
 import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'com.sparks.aichat',
   appName: 'Sparks AI Chat',
-  webDir: 'dist',
-  server: {
-    url: 'https://2wiulvhq.spock.replit.dev', // உங்கள் Replit URL
-    cleartext: true
-  }
+  webDir: 'dist'
+  // server.url வேண்டாம்!
 };
 
 export default config;
